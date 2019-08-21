@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link href="samsung.css" rel="stylesheet" type="text/css">
+    <style>
+            li a, .dropbtn {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding:0px 4px;
+                text-decoration: none;
+            }
+            
+            li a,:hover, .dropdown:hover .dropbtn {
+                color:#fff;
+            }
+            
+            li.dropdown {
+                display: inline-block;
+            }
+            
+            .dropdown-content {
+                display: none;
+                position: absolute;    
+                top:70px;
+                left:0px;
+                width:100%;    
+                background-color:rgba(0, 0, 0, 0.829);
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            
+            .dropdown-content a {
+                color: white;   
+                text-decoration: none;
+                display: block;
+                text-align: center;
+            }
+            
+            .dropbtn:hover{
+            -webkit-animation: neon2 0.5s ease-in-out infinite alternate;
+              -moz-animation: neon2 0.5s ease-in-out infinite alternate;
+              animation: neon2 0.5s ease-in-out infinite alternate;
+            }
+            
+            .dropdown-content a:hover {
+                -webkit-animation: neon2 0.5s ease-in-out infinite alternate;
+              -moz-animation: neon2 0.5s ease-in-out infinite alternate;
+              animation: neon2 0.5s ease-in-out infinite alternate;
+            }
+            
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            
+            /*glow for webkit*/
+            
+            @-webkit-keyframes neon2 {
+              from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px  #228DFF, 0 0 70px  #228DFF, 0 0 80px  #228DFF, 0 0 100px  #228DFF, 0 0 150px  #228DFF;
+              }
+              to {
+                text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px  #228DFF, 0 0 35px  #228DFF, 0 0 40px  #228DFF, 0 0 50px  #228DFF, 0 0 75px  #228DFF;
+              }
+            }
+            
+            
+            
+            /*glow for mozilla*/
+            
+            @-moz-keyframes neon2 {
+              from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px  #228DFF, 0 0 70px  #228DFF, 0 0 80px  #228DFF, 0 0 100px  #228DFF, 0 0 150px  #228DFF;
+              }
+              to {
+                text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px  #228DFF, 0 0 35px  #228DFF, 0 0 40px  #228DFF, 0 0 50px  #228DFF, 0 0 75px  #228DFF;
+              }
+            }
+            
+            
+            /*glow*/
+            
+            @keyframes neon2 {
+              from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px  #228DFF, 0 0 70px  #228DFF, 0 0 80px  #228DFF, 0 0 100px  #228DFF, 0 0 150px  #228DFF;
+              }
+              to {
+                text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px  #228DFF, 0 0 35px  #228DFF, 0 0 40px  #228DFF, 0 0 50px #228DFF, 0 0 75px  #228DFF;
+              }
+            }
+        </style>
+</head>
+<body>
+        <header>
+                <div class="nav_bar">
+               <img src="background.jpg" class="logo">
+                <ul class="menu">	
+               <li><a href="index.html" class="dropbtn">Home</a></li>
+               <li class="dropdown"><a href="#" class="dropbtn">Mobile</a>
+                   <div class="dropdown-content"> 
+                    <a href="#">Samsung</a>
+                    <a href="#">Lenovo</a>
+                    <a href="#">Xiaomi</a>		     
+                    <a href="#">Iphone</a>
+                    <a href="#">Oppo</a>
+                    <a href="#">Vivo</a>		     
+                    <a href="#">Lava</a>
+                    <a href="#">More</a>		     
+                   </div>
+               </li>
+               <li class="dropdown"><a href="#" class="dropbtn">Computer</a>		
+                   <div class="dropdown-content"> 
+                    <a href="windows.html">Windows</a>
+                    <a href="#">Linux</a>
+                    <a href="#">Mac</a>
+                   </div>
+                   </li>
+               <li><a href="#" class="dropbtn">About</a></li>
+               <li><a href="#" class="dropbtn">Contact us</a></li>
+                </ul>
+                </div>
+            </header>
+    <div class="intro">
+        <h1>
+            Samsung Mobiles flashing files
+        </h1>
+        <p>
+            Compatible and Tested flashing files which can be easily flashable by anyone.
+        </p>
+    </div>
+    <div class="container">
+        <div class="box">
+            <div class="content">
+                <h2>Samsung</h2>
+                <h3>GT-S7392</h3>
+                <p>Description</p>
+                <a href="#">Download</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2>Samsung</h2>
+                <h3>Galaxy J7 Prime</h3>
+                <p>Description </p>
+                <a href="#">Download</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2>Samsung</h2>
+                <h3>Galaxy Neo Prime</h3>
+                <p>Description</p>
+                <a href="#">Download</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2>Samsung</h2>
+                <h3>Galaxy J2</h3>
+                <p>Description</p>
+                <a href="#">Download</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <div class="content">
+                <h2>Samsung</h2>
+                <h3>GT-S7392</h3>
+                <p>Description</p>
+                <a href="#">Download</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2>Samsung</h2>
+                <h3>Galaxy J7 Prime</h3>
+                <p>Description </p>
+                <a href="#">Download</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2>Samsung</h2>
+                <h3>Galaxy Neo Prime</h3>
+                <p>Description</p>
+                <a href="#">Download</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2>Samsung</h2>
+                <h3>Galaxy J2</h3>
+                <p>Description</p>
+                <a href="#">Download</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
